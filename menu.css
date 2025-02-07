@@ -1,0 +1,230 @@
+@media screen and (min-width: 360px) and (max-width: 675px) {
+    :root{
+        --verde: rgb(0, 255, 0);
+        --preto: black;
+        --pretoVidro: rgba(0, 0, 0, 0.507);
+        --cinza: rgb(22, 22, 22);
+        --cinzaClaro: rgb(85, 85, 85);
+        --branco: white;
+    
+        --margem: 1%;
+    }
+
+    .cabecalho{
+        position: sticky;
+        top: 0;
+
+        background-color: var(--preto);
+        height: 8vh;
+
+        z-index: 1000;
+
+        & .logoHome{
+            font-size: 5vh;
+        }
+    }
+
+    .navbar{
+        width: 50%;
+        padding-right: 2%;
+
+        & .menu-hamburguer{
+            right: 0;
+            top: 0;
+            position: absolute;
+            
+            & button{
+                background-color: transparent;
+                border: none;
+                cursor: pointer;
+
+                & img{
+                    height: 50px;
+                }
+            }
+        }
+
+        & .caixaNav{
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            height: 100vh;
+            top: 0;
+            right: -50%;
+            background-color: var(--pretoVidro);
+            backdrop-filter: blur(5px);
+            text-align: center;
+            padding: 10%;
+            transition: .5s all;
+
+            & a{
+                padding: 5% 0% 5% 0%;
+                background: var(--verde);
+                opacity: 1;
+                transition: all .5s forwards;
+                margin-top: 20%;
+                text-align: center;
+
+                & button{
+                    background-color: transparent;
+                    color: var(--branco);
+                    border: none;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (min-width: 676px) and (max-width: 900px) {
+    :root{
+        --verde: rgb(0, 255, 0);
+        --preto: black;
+        --pretoVidro: rgba(0, 0, 0, 0.507);
+        --cinza: rgb(22, 22, 22);
+        --cinzaClaro: rgb(85, 85, 85);
+        --branco: white;
+    
+        --margem: 1%;
+    }
+
+    .cabecalho{
+        position: sticky;
+        top: 0;
+
+        background-color: var(--preto);
+        height: 8vh;
+
+        z-index: 1000;
+
+        & .logoHome{
+            font-size: 5vh;
+        }
+    }
+
+    .navbar{
+        width: 50%;
+        padding-right: 2%;
+
+        & .menu-hamburguer{
+            right: 0;
+            top: 0;
+            position: absolute;
+            
+            & button{
+                background-color: transparent;
+                border: none;
+                cursor: pointer;
+
+                & img{
+                    height: 50px;
+                }
+            }
+        }
+
+        & .caixaNav{
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            height: 100vh;
+            top: 0;
+            right: -50%;
+            background-color: var(--pretoVidro);
+            backdrop-filter: blur(5px);
+            text-align: center;
+            padding: 10%;
+            transition: .5s all;
+
+            & a{
+                padding: 5% 0% 5% 0%;
+                background: var(--verde);
+                opacity: 1;
+                transition: all .5s forwards;
+                margin-top: 13%;
+                text-align: center;
+
+                & button{
+                    background-color: transparent;
+                    color: var(--branco);
+                    border: none;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 901px) {
+    .cabecalho{
+        max-width: 100%;
+        padding: 1%;
+        background-color: var(--preto);
+    
+        display: flex;
+        justify-content: space-between;
+    
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    
+        & .logoHome{
+            color: var(--branco);
+            font-family: "Black Ops One", serif;
+            font-size: 3vh;
+        }
+    
+        & .menu-hamburguer{
+            display: none;
+        }
+    
+        & .navbar{
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            padding-right: 2%;
+
+            & .menu-hamburguer{
+                display: none;
+            }
+    
+            & .caixaNav{
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+
+                & a{
+                    padding: 1%;
+
+                    & button{
+                        background-color: transparent;
+                        color: var(--branco);
+                        border: none;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+    
+    .cabecalho .navbar a:hover{
+        background: var(--verde);
+        opacity: 1;
+        transition: all .5s forwards; 
+    }
+}      
+
+
+
+
+
+
+
+                    
