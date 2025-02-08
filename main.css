@@ -158,7 +158,6 @@
     
                 & p{
                     color: var(--cinzaClaro);
-                    display: none;
                 }
     
                 & button{
@@ -265,9 +264,11 @@
         margin-bottom: 5%;
         margin-top: 5%;
         
-        & img{
-            width: 25%;
+        & #treinadorGym{
+            height: 20vh;
             border-radius: 50%;
+            margin-top: auto;
+            margin-bottom: auto;
         }
     
         & .linha{
@@ -280,6 +281,8 @@
         & .description{
             width: 25%;
             color: var(--branco);
+            margin-top: auto;
+            margin-bottom: auto;
     
             & p{
                 color: var(--cinzaClaro);
@@ -307,10 +310,11 @@
         margin-bottom: 5%;
         margin-top: 5%;
         
-        & img{
-            width: 25%;
+        & #imgGym{
+            height: 20vh;
             border-radius: 50%;
-            object-fit: fill;
+            margin-top: auto;
+            margin-bottom: auto;
         }
     
         & .linha{
@@ -323,6 +327,8 @@
         & .description{
             width: 25%;
             color: var(--branco);
+            margin-top: auto;
+            margin-bottom: auto;
     
             & p{
                 color: var(--cinzaClaro);
@@ -373,7 +379,7 @@
 
 
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 901px) {
     *{
         padding: 0;
         margin: 0;
