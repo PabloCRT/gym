@@ -1,0 +1,31 @@
+:root{
+    --verde: rgb(2, 221, 2);
+    --sombraVerde: rgb(0, 83, 0);
+    --preto: black;
+    --cinza: rgb(22, 22, 22);
+    --cinzaClaro: rgb(85, 85, 85);
+    --branco: rgb(236, 236, 236);
+
+    --margem: 1%;
+}
+
+main{
+    padding: 2%;
+}
+
+#mente-e-corpo{
+    background-color: var(--cinza);
+    border-radius: 30px;
+
+    & #title{
+        padding: 2%;
+        color: var(--branco);
+        margin-bottom: -2.5%;
+    }
+
+    & #text{
+        padding: 2%;
+        color: var(--branco);
+        max-width: 50%;
+    }
+}

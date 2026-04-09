@@ -7,6 +7,7 @@
     
     :root{
         --verde: rgb(0, 255, 0);
+        --fundo: rgb(26, 26, 26);
         --preto: black;
         --cinza: rgb(22, 22, 22);
         --cinzaClaro: rgb(85, 85, 85);
@@ -18,7 +19,7 @@
     body{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 2vh;
-        background-color: var(--preto);
+        background-color: var(--fundo);
         transition: all .3s;
     }
     
@@ -387,11 +388,12 @@
     }
     
     :root{
-        --verde: rgb(0, 255, 0);
+        --verde: rgb(2, 221, 2);
+        --sombraVerde: rgb(0, 83, 0);
         --preto: black;
         --cinza: rgb(22, 22, 22);
         --cinzaClaro: rgb(85, 85, 85);
-        --branco: white;
+        --branco: rgb(236, 236, 236);
     
         --margem: 1%;
     }
@@ -401,6 +403,7 @@
         font-size: 2vh;
         background-color: var(--preto);
         transition: all .3s;
+        scroll-behavior: smooth;
     }
     
     a{
@@ -441,6 +444,19 @@
             border-top-left-radius: 20%;
             border-bottom-right-radius: 20%;
             object-fit: fill;
+        }
+    }
+
+    .textoSlide{
+
+        & .frase{
+
+            & .iniciar{
+                
+                & p{
+                    color: var(--cinza);
+                }
+            }
         }
     }
     

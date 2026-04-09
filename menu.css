@@ -85,6 +85,7 @@
         --preto: black;
         --pretoVidro: rgba(0, 0, 0, 0.507);
         --cinza: rgb(22, 22, 22);
+        --cinzaMedio: rgb(56, 56, 56);
         --cinzaClaro: rgb(85, 85, 85);
         --branco: white;
     
@@ -204,6 +205,7 @@
                     padding: 1%;
 
                     & button{
+                        font-size: 2vh;
                         background-color: transparent;
                         color: var(--branco);
                         border: none;
@@ -215,9 +217,10 @@
     }
     
     .cabecalho .navbar a:hover{
-        background: var(--verde);
+        /*background: linear-gradient(135deg, rgb(0, 255, 0) 93%, transparent 90%);*/
+        background: linear-gradient(135deg, var(--verde)90%, var(--preto)10%, transparent 90%);
         opacity: 1;
-        transition: all .5s forwards; 
+        transition: all 1s forwards; 
     }
 }      
 
