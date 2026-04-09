@@ -179,7 +179,7 @@
         & .logoHome{
             color: var(--branco);
             font-family: "Black Ops One", serif;
-            font-size: 3vh;
+            font-size: 5vh;
         }
     
         & .menu-hamburguer{
@@ -190,7 +190,7 @@
             width: 50%;
             display: flex;
             justify-content: space-between;
-            padding-right: 2%;
+            padding: 0.5% 2% 0.5% 0%;
 
             & .menu-hamburguer{
                 display: none;
