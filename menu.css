@@ -219,8 +219,8 @@
     .cabecalho .navbar a:hover{
         /*background: linear-gradient(135deg, rgb(0, 255, 0) 93%, transparent 90%);*/
         background: linear-gradient(135deg, var(--verde)90%, var(--preto)10%, transparent 90%);
-        opacity: 1;
-        transition: all 1s forwards; 
+        transition: all 1s forwards;
+        opacity: 1; 
     }
 }      
 

@@ -60,6 +60,19 @@
             display: none;
         }
     }
+
+    .textoSlide{
+        opacity: 0;
+        transform: translateX(-50px);
+        animation: animacaoTextoSlide 2s ease-out forwards;
+    }
+
+    @keyframes animacaoTextoSlide {
+        to{
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
     
     .caixaTexto{
         color: var(--branco);
@@ -448,6 +461,9 @@
     }
 
     .textoSlide{
+        opacity: 0;
+        transform: translateX(-50px);
+        animation: animacaoTextoSlide 2s ease-out forwards;
 
         & .frase{
 
@@ -457,6 +473,13 @@
                     color: var(--cinza);
                 }
             }
+        }
+    }
+
+    @keyframes animacaoTextoSlide {
+        to{
+            opacity: 1;
+            transform: translateX(0px);
         }
     }
     
@@ -763,4 +786,6 @@
             color: transparent;
         }
     }
+
+
 }
